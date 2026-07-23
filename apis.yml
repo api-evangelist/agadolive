@@ -1,7 +1,16 @@
 aid: agadolive
 name: AgadoLive
-description: AgadoLive is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Agado Live is an AI-powered telerehabilitation platform built for physical
+  therapy clinics, letting one therapist supervise many patients at once while capturing
+  measurable outcomes. Its computer-vision engine extracts joint kinematics in real
+  time from a single smartphone or webcam, with no wearables, markers, or proprietary
+  hardware, then flags form issues live and directs the therapist''s attention where
+  it is needed most. The platform delivers Live Group Care, AI movement assessment,
+  auto-generated SOAP notes, and specialized orthopedic, neurological, and geriatric
+  protocols. Founded by Tzach Goren, Gili Yaron, Gil Shamai, and Vittaly Tavor, Agado
+  Live operates from Tel Aviv and Boston and is backed by Techstars. Added to the
+  API Evangelist network as a company profile; the company publishes a marketing and
+  clinical site but no public developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/agadolive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/045885_0e1880992b8b48b096f54818edd07b11~mv2.png
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Digital Health
+- Telehealth
+- Rehabilitation
+- Physical Therapy
+- Computer Vision
+- Artificial Intelligence
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/agadolive-domain-security.yml
 - type: Website
-  url: https://agadolive.com/
+  url: https://www.agadolive.com/
+- type: Blog
+  url: https://www.agadolive.com/blog
+- type: TermsOfService
+  url: https://www.agadolive.com/terms
+- type: PrivacyPolicy
+  url: https://www.agadolive.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
